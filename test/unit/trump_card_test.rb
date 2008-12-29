@@ -11,6 +11,7 @@ Expectations do
 #  end
 
   expect true do
+
     weight100 = TrumpCard.new([Property.higher_wins_property(:weight, 100)])
     weight80 = TrumpCard.new([Property.higher_wins_property(:weight, 80)])
     weight100.wins_with?(weight80, :weight)
