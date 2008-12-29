@@ -5,12 +5,12 @@ Expectations do
 
   factory = TrumpCardFactory.new({:weight => :higher_wins, :runs => :higher_wins, :rank => :lower_wins})
 
-  expect 3 do
-    factory.create_card({:weight => 10, :runs => 1000, :rank => 2}).properties.size
+  expect 'TrumpCard: Rank => 2, Runs => 1000, Weight => 10' do
+    factory.create_card({:weight => 10, :runs => 1000, :rank => 2}).to_s
   end
 
-  expect 3 do
-    factory.create_card({:rank => 2}).properties.size
+  expect "TrumpCard: Rank => 2, Runs => , Weight => " do
+    factory.create_card({:rank => 2}).to_s
   end
 
 end

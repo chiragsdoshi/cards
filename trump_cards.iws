@@ -77,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="trump_card_factory_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/trump_card_factory_test.rb">
+      <file leaf-file-name="property.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/property.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="41" selection-start="55" selection-end="55" vertical-scroll-proportion="0.078125">
+            <state line="4" column="7" selection-start="83" selection-end="83" vertical-scroll-proportion="0.15625">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="trump_card.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/trump_card.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="365" selection-end="365" vertical-scroll-proportion="0.703125">
+            <state line="23" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.8984375">
               <folding />
             </state>
           </provider>
@@ -98,16 +98,7 @@
       <file leaf-file-name="trump_card_factory.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/trump_card_factory.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.1171875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trump_card_test.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/unit/trump_card_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="300" selection-end="300" vertical-scroll-proportion="0.1953125">
+            <state line="8" column="45" selection-start="201" selection-end="201" vertical-scroll-proportion="0.3125">
               <folding />
             </state>
           </provider>
@@ -116,7 +107,16 @@
       <file leaf-file-name="property_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/property_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="291" selection-end="291" vertical-scroll-proportion="0.46875">
+            <state line="9" column="47" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3515625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trump_card_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/trump_card_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="4" selection-start="724" selection-end="724" vertical-scroll-proportion="0.8046875">
               <folding />
             </state>
           </provider>
@@ -582,42 +582,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/trump_card_factory_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="41" selection-start="55" selection-end="55" vertical-scroll-proportion="0.078125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/property.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="615" selection-end="615" vertical-scroll-proportion="0.7421875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/property_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="291" selection-end="291" vertical-scroll-proportion="0.46875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/trump_card_factory.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.1171875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/trump_card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="365" selection-end="365" vertical-scroll-proportion="0.703125">
+        <state line="13" column="64" selection-start="427" selection-end="427" vertical-scroll-proportion="0.5078125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/trump_card_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="300" selection-end="300" vertical-scroll-proportion="0.1953125">
+        <state line="26" column="4" selection-start="724" selection-end="724" vertical-scroll-proportion="0.8046875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trump_card.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.8984375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/property_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="47" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3515625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trump_card_factory.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="201" selection-end="201" vertical-scroll-proportion="0.3125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/ruby/gems/1.8/gems/expectations-0.2.8/lib/expectations/state_based_expectation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="296" selection-end="296" vertical-scroll-proportion="0.390625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/property.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="83" selection-end="83" vertical-scroll-proportion="0.15625">
           <folding />
         </state>
       </provider>

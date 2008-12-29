@@ -2,8 +2,6 @@ class TrumpCard
 
   include Comparable   
 
-  attr_reader :properties
-
   def initialize(properties)
     @properties = {}
     properties.collect do |property|
@@ -11,12 +9,16 @@ class TrumpCard
     end
   end
 
-  def wins_with?(other, property)
-    return @properties[property] > other.properties[property]
+  def beats?(other, property_name)
+    return other._beats?(@properties[property_name], property_name)
+  end
+
+  def _beats?(property, property_name)
+    return property >= @properties[property_name]
   end
 
   def to_s
-    "TrumpCard: #{properties.values.collect {|p| p.to_s}.join(', ') }"
+    "TrumpCard: #{@properties.values.collect {|p| p.to_s}.sort.join(', ') }"
   end
 
 end
