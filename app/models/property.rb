@@ -9,16 +9,16 @@ class Property
     @comparison_type = comparison_type
   end
 
-  def self.higher_better_property(name, value)
-    Property.new(name, value, :hb)
+  def self.higher_wins_property(name, value)
+    Property.new(name, value, :higher_wins)
   end
 
-  def self.lower_better_property(name, value)
-    Property.new(name, value, :lb)
+  def self.lower_wins_property(name, value)
+    Property.new(name, value, :lower_wins)
   end
 
   def <=>(other)
-    return value - other.value if @comparison_type == :hb
-    return other.value - value if @comparison_type == :lb
+    return value - other.value if @comparison_type == :higher_wins
+    return other.value - value if @comparison_type == :lower_wins
   end
 end
