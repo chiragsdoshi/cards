@@ -1,7 +1,7 @@
 class Property
 
   include Comparable
-  attr_reader :comparison_type, :value
+  attr_reader :comparison_type, :name, :value
 
   def initialize(name, value, comparison_type)
     @name = name
@@ -20,5 +20,9 @@ class Property
   def <=>(other)
     return value - other.value if @comparison_type == :higher_wins
     return other.value - value if @comparison_type == :lower_wins
+  end
+
+  def to_s
+    name.to_s.titleize + ' => ' + value.to_s 
   end
 end

@@ -10,4 +10,7 @@ Expectations do
     Property.lower_wins_property(nil, 1) > Property.lower_wins_property(nil, 2)
   end
 
+  expect "Rank => 2" do
+    Property.lower_wins_property(:rank, 2).to_s
+  end
 end
