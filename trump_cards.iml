@@ -24,8 +24,6 @@
     file://$MODULE_DIR$/vendor/rails
     <USER_URLS url="file://$MODULE_DIR$/public/stylesheets" />
     file://$MODULE_DIR$/public/stylesheets
-    <USER_URLS url="file://$MODULE_DIR$/vendor/plugins" />
-    file://$MODULE_DIR$/vendor/plugins
   </component>
 </module>
 
