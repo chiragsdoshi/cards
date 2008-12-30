@@ -77,19 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="property.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/property.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="83" selection-end="83" vertical-scroll-proportion="0.15625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="trump_card.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/trump_card.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.8984375">
+            <state line="11" column="4" selection-start="216" selection-end="216" vertical-scroll-proportion="0.4296875">
               <folding />
             </state>
           </provider>
@@ -98,7 +89,25 @@
       <file leaf-file-name="trump_card_factory.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/trump_card_factory.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="45" selection-start="201" selection-end="201" vertical-scroll-proportion="0.3125">
+            <state line="16" column="10" selection-start="356" selection-end="356" vertical-scroll-proportion="0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trump_card_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/unit/trump_card_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="2" selection-start="279" selection-end="279" vertical-scroll-proportion="0.390625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="property.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/property.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="2" selection-start="579" selection-end="579" vertical-scroll-proportion="0.7265625">
               <folding />
             </state>
           </provider>
@@ -107,16 +116,7 @@
       <file leaf-file-name="property_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/property_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3515625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trump_card_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/trump_card_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="4" selection-start="724" selection-end="724" vertical-scroll-proportion="0.8046875">
+            <state line="4" column="2" selection-start="74" selection-end="74" vertical-scroll-proportion="0.15625">
               <folding />
             </state>
           </provider>
@@ -288,9 +288,9 @@
     <RUBY_DOC NAME="DEFAULTS" VALUE="true" />
     <RUBY_DOC NAME="NUMBER" VALUE="0" />
   </component>
-  <component name="RunManager" selected="RubyOnRails.property_test">
-    <tempConfiguration default="false" name="property_test" type="RubyRunConfigurationType" factoryName="Ruby script">
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/unit/property_test.rb" />
+  <component name="RunManager" selected="RubyOnRails.trump_card_test">
+    <tempConfiguration default="false" name="trump_card_test" type="RubyRunConfigurationType" factoryName="Ruby script">
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/unit/trump_card_test.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/test/unit" />
@@ -303,22 +303,6 @@
         <option name="Make" value="true" />
       </method>
     </tempConfiguration>
-    <configuration default="true" type="RubyRunConfigurationType" factoryName="Server">
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_PATH" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="MODULE_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="CHOOSE_MANUALLY" VALUE="true" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SERVER_TYPE" VALUE="DEFAULT" />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -330,13 +314,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" />
@@ -363,6 +340,23 @@
         <option name="Make" value="true" />
       </method>
     </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby test">
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="MODULE_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -382,22 +376,28 @@
       </option>
       <envs />
     </configuration>
-    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby test">
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="MODULE_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Server">
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_PATH" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="MODULE_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="CHOOSE_MANUALLY" VALUE="true" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SERVER_TYPE" VALUE="DEFAULT" />
       <method>
         <option name="Make" value="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="false" name="Server:trump_cards" type="RubyRunConfigurationType" factoryName="Server">
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/script/server" />
@@ -417,7 +417,7 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="RubyOnRails.Server:trump_cards" />
-      <item index="1" class="java.lang.String" itemvalue="RubyOnRails.property_test" />
+      <item index="1" class="java.lang.String" itemvalue="RubyOnRails.trump_card_test" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -587,34 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/trump_card_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="724" selection-end="724" vertical-scroll-proportion="0.8046875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/trump_card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.8984375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/property_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3515625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/trump_card_factory.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="201" selection-end="201" vertical-scroll-proportion="0.3125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/ruby/gems/1.8/gems/expectations-0.2.8/lib/expectations/state_based_expectation.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="32" selection-start="296" selection-end="296" vertical-scroll-proportion="0.390625">
@@ -622,9 +594,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/property_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="74" selection-end="74" vertical-scroll-proportion="0.15625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/property.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="83" selection-end="83" vertical-scroll-proportion="0.15625">
+        <state line="25" column="2" selection-start="579" selection-end="579" vertical-scroll-proportion="0.7265625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trump_card.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="216" selection-end="216" vertical-scroll-proportion="0.4296875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/trump_card_factory.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="356" selection-end="356" vertical-scroll-proportion="0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/trump_card_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="279" selection-end="279" vertical-scroll-proportion="0.390625">
           <folding />
         </state>
       </provider>

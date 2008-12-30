@@ -6,9 +6,17 @@ class TrumpCardFactory
 
   def create_card(property_values)
 
-    properties = @property_definitions.collect  do |name, type|
-      Property.new(name, property_values[name], type)
-    end
-    TrumpCard.new(properties)
+    TrumpCard.new(properties_hash_for property_values)
   end
+
+  private
+  
+  def properties_hash_for(property_values)
+    properties = {}
+        @property_definitions.each  do |name, type|
+          properties[name] = Property.new(name, property_values[name], type)
+        end
+    properties    
+  end
+  
 end

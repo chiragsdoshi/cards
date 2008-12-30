@@ -1444,3 +1444,291 @@
 [0m
   [4;36;1mSQL (0.000106)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
   [4;35;1mSQL (0.012196)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000516)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000112)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000212)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000157)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000220)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000203)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000165)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.015647)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.008380)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000653)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000213)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.008242)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000500)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000166)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000192)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000228)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.028135)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.006629)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000250)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000125)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.006818)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000498)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000190)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000192)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.014766)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.005459)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000224)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.006489)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000493)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000191)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000200)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.012626)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.009553)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000206)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.008904)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000492)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000165)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000200)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000188)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000157)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.019360)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.007291)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000209)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.009938)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000508)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000159)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000190)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000194)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.015342)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.009156)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000214)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.009202)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000507)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000191)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000195)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000162)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.010713)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.007995)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000212)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000104)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.010118)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000523)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000161)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000190)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000191)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.018794)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.008566)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000227)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.006142)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000509)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000163)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000189)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000192)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.010457)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.008590)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000206)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.006138)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000496)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000203)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000188)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000160)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.038014)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.008728)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000248)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.006469)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000499)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000158)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000193)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000191)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000156)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.033804)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.006562)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000254)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000129)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.006651)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;36;1mSQL (0.000512)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000106)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000164)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000107)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000190)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000230)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000702)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.011413)[0m   [0mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;36;1mSQL (0.008696)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.000209)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000106)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (0.006664)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m

@@ -3,10 +3,7 @@ class TrumpCard
   include Comparable   
 
   def initialize(properties)
-    @properties = {}
-    properties.collect do |property|
-      @properties[property.name] = property
-    end
+    @properties = properties
   end
 
   def beats?(other, property_name)
