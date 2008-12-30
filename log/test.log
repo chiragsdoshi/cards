@@ -404,3 +404,103 @@ Unable to load test, underlying cause no such file to load -- test
 /usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
 /usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
 /usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+/home/dhaval/work/myapps/trump_cards/test/unit/../test_helper.rb:35
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1:in `require'
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1
+-e:1:in `load'
+-e:1
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+/home/dhaval/work/myapps/trump_cards/test/unit/../test_helper.rb:35
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1:in `require'
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1
+-e:1:in `load'
+-e:1
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+/home/dhaval/work/myapps/trump_cards/test/unit/../test_helper.rb:35
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1:in `require'
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1
+-e:1:in `load'
+-e:1
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+/home/dhaval/work/myapps/trump_cards/test/unit/../test_helper.rb:35
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1:in `require'
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1
+-e:1:in `load'
+-e:1
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+/home/dhaval/work/myapps/trump_cards/test/unit/../test_helper.rb:35
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1:in `require'
+/home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1
+-e:1:in `load'
+-e:1
