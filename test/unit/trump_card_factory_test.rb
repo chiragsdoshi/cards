@@ -13,4 +13,8 @@ Expectations do
     factory.create_card({:rank => 2}).to_s
   end
 
+  expect "TrumpCard:Tendulkar Rank => , Runs => , Weight => " do
+    factory.create_card({}, 'Tendulkar').to_s
+  end
+
 end

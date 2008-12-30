@@ -2,7 +2,8 @@ class TrumpCard
 
   include Comparable   
 
-  def initialize(properties)
+  def initialize(properties, name = '')
+    @name = name
     @properties = properties
   end
 
@@ -15,7 +16,7 @@ class TrumpCard
   end
 
   def to_s
-    "TrumpCard: #{@properties.values.collect {|p| p.to_s}.sort.join(', ') }"
+    "TrumpCard:#{@name} #{@properties.values.collect {|p| p.to_s}.sort.join(', ') }"
   end
 
 end
