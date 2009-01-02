@@ -2992,3 +2992,538 @@ SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
   Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
 Rendering trump_card/result
 Completed in 0.00510 (196 reqs/sec) | Rendering: 0.00110 (21%) | 200 OK [http://localhost/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+/!\ FAILSAFE /!\  Fri Jan 02 22:10:31 +0530 2009
+  Status: 500 Internal Server Error
+  You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.strip
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:42:in `create_cards'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1458:in `each'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1003:in `foreach'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1175:in `open'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1002:in `foreach'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:41:in `create_cards'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:5:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `new'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `create_deck'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:4:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `new'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Jan 02 22:10:34 +0530 2009
+  Status: 500 Internal Server Error
+  You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.strip
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:42:in `create_cards'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1458:in `each'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1003:in `foreach'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1175:in `open'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1002:in `foreach'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:41:in `create_cards'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:5:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `new'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `create_deck'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:4:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `new'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Jan 02 22:10:36 +0530 2009
+  Status: 500 Internal Server Error
+  You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.strip
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:42:in `create_cards'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1458:in `each'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1003:in `foreach'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1175:in `open'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1002:in `foreach'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:41:in `create_cards'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:5:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `new'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `create_deck'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:4:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `new'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Jan 02 22:10:37 +0530 2009
+  Status: 500 Internal Server Error
+  You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.strip
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:42:in `create_cards'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1458:in `each'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1003:in `foreach'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1175:in `open'
+    /usr/lib/ruby/gems/1.8/gems/fastercsv-1.2.3/lib/faster_csv.rb:1002:in `foreach'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:41:in `create_cards'
+    /home/dhaval/work/myapps/trump_cards/app/models/deck.rb:5:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `new'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:20:in `create_deck'
+    /home/dhaval/work/myapps/trump_cards/app/controllers/trump_card_controller.rb:4:in `initialize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `new'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /home/dhaval/work/myapps/trump_cards/vendor/rails/railties/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:10:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00557 (179 reqs/sec) | Rendering: 0.00128 (23%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#result (for 127.0.0.1 at 2009-01-02 22:11:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"name"=>"Harbhajan Singh", "property"=>"wickets", "action"=>"result", "other_name"=>"Sinclair, M S", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00550 (181 reqs/sec) | Rendering: 0.00115 (20%) | 200 OK [http://localhost/trump_card/result?other_name=Sinclair%2C+M+S&name=Harbhajan+Singh&property=wickets]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:11:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00519 (192 reqs/sec) | Rendering: 0.00114 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:12:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00686 (145 reqs/sec) | Rendering: 0.00276 (40%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00272 (367 reqs/sec) | Rendering: 0.00060 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00555 (180 reqs/sec) | Rendering: 0.00119 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00514 (194 reqs/sec) | Rendering: 0.00110 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00515 (194 reqs/sec) | Rendering: 0.00114 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00433 (230 reqs/sec) | Rendering: 0.00060 (13%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00638 (156 reqs/sec) | Rendering: 0.00126 (19%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00538 (185 reqs/sec) | Rendering: 0.00111 (20%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00300 (333 reqs/sec) | Rendering: 0.00071 (23%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00498 (200 reqs/sec) | Rendering: 0.00108 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00509 (196 reqs/sec) | Rendering: 0.00112 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00494 (202 reqs/sec) | Rendering: 0.00107 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00493 (202 reqs/sec) | Rendering: 0.00108 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00496 (201 reqs/sec) | Rendering: 0.00110 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.06194 (16 reqs/sec) | Rendering: 0.05801 (93%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00513 (194 reqs/sec) | Rendering: 0.00109 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00499 (200 reqs/sec) | Rendering: 0.00108 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00506 (197 reqs/sec) | Rendering: 0.00111 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00514 (194 reqs/sec) | Rendering: 0.00110 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00569 (175 reqs/sec) | Rendering: 0.00125 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00538 (185 reqs/sec) | Rendering: 0.00117 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00267 (374 reqs/sec) | Rendering: 0.00061 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00562 (177 reqs/sec) | Rendering: 0.00119 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00496 (201 reqs/sec) | Rendering: 0.00107 (21%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00509 (196 reqs/sec) | Rendering: 0.00115 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00305 (328 reqs/sec) | Rendering: 0.00070 (22%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#play (for 127.0.0.1 at 2009-01-02 22:13:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00546 (183 reqs/sec) | Rendering: 0.00111 (20%) | 200 OK [http://localhost/trump_card/play]
+
+
+Processing TrumpCardController#result (for 127.0.0.1 at 2009-01-02 22:13:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"name"=>"Flintoff, A", "property"=>"runs", "action"=>"result", "other_name"=>"Chanderpaul, S", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00680 (147 reqs/sec) | Rendering: 0.00116 (16%) | 200 OK [http://localhost/trump_card/result?other_name=Chanderpaul%2C+S&name=Flintoff%2C+A&property=runs]
+
+
+Processing TrumpCardController#result (for 127.0.0.1 at 2009-01-02 22:15:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--40ccc3ca2529f011c3854b301574ffbb2df073de
+  Parameters: {"name"=>"Flintoff, A", "property"=>"runs1", "action"=>"result", "other_name"=>"Chanderpaul, S", "controller"=>"trump_card"}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.>=):
+    /app/models/trump_card.rb:16:in `_beats?'
+    /app/models/trump_card.rb:12:in `beats?'
+    /app/controllers/trump_card_controller.rb:15:in `result'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1162:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:580:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:201:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:529:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:130:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:389:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:76:in `process'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `synchronize'
+    /usr/lib/ruby/1.8/mongrel/rails.rb:74:in `process'
+    /usr/lib/ruby/1.8/mongrel.rb:159:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `each'
+    /usr/lib/ruby/1.8/mongrel.rb:158:in `process_client'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:285:in `run'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `initialize'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `new'
+    /usr/lib/ruby/1.8/mongrel.rb:268:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:282:in `run'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `each'
+    /usr/lib/ruby/1.8/mongrel/configurator.rb:281:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:129:in `run'
+    /usr/lib/ruby/1.8/mongrel/command.rb:212:in `run'
+    /usr/lib/ruby/1.8/mongrel_rails:282
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:502:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:509:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:39
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /home/dhaval/work/myapps/trump_cards/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
