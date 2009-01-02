@@ -1,6 +1,7 @@
 class TrumpCard
 
   include Comparable   
+  attr_reader :name
 
   def initialize(properties, name = '')
     @name = name
@@ -13,6 +14,10 @@ class TrumpCard
 
   def _beats?(property, property_name)
     return property >= @properties[property_name]
+  end
+
+  def identified_by?(name)
+    @name == name
   end
 
   def to_s

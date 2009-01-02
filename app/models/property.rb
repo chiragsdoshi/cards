@@ -17,15 +17,15 @@ class Property
   end
 
   def <=>(other)
-    other._spaceship(@value)
+    other._spaceship(@value.to_f)
   end
 
   def _spaceship(other_value)
-    return other_value - @value if @comparison_type == :higher_wins
-    return @value - other_value if @comparison_type == :lower_wins
+    return other_value - @value.to_f if @comparison_type == :higher_wins
+    return @value.to_f - other_value if @comparison_type == :lower_wins
   end
 
   def to_s
-    @name.to_s.titleize + ' => ' + @value.to_s 
+    @name.to_s.titleize + ' => ' + @value.to_s
   end
 end

@@ -228,6 +228,14 @@
   <component name="ProjectRootManager" version="2" assert-keyword="true" jdk-15="true" project-jdk-name="Ruby SDK 1.8.6" project-jdk-type="RUBY_SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="RProjectSettings">
+    <option name="myOptions">
+      <list>
+        <option value="SKIP" />
+        <option value="SVN_SHOW_CONFIRMATION" />
+      </list>
+    </option>
+  </component>
   <component name="ResourceManagerContainer">
     <option name="myResourceBundles">
       <value>

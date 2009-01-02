@@ -42,8 +42,16 @@ Expectations do
     TrumpCard.new({:weight => Property.higher_wins_property(:weight, 70), :rank => Property.lower_wins_property(:rank, 1)}).to_s
   end
 
-  expect "TrumpCard:Tendulkar " do
-    TrumpCard.new({}, 'Tendulkar').to_s
+  expect "TrumpCard:Tendlya " do
+    TrumpCard.new({}, 'Tendlya').to_s
+  end
+
+  expect true do
+    TrumpCard.new({}, 'Tendlya').identified_by?('Tendlya')
+  end
+
+  expect "Tendlya" do
+    TrumpCard.new({}, 'Tendlya').name
   end
 
 end

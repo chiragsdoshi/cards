@@ -504,3 +504,1033 @@ Unable to load test, underlying cause no such file to load -- test
 /home/dhaval/work/myapps/trump_cards/test/unit/deck_test.rb:1
 -e:1:in `load'
 -e:1
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/functional/../test_helper.rb:35
+./test/functional/trump_card_controller_test.rb:1:in `require'
+./test/functional/trump_card_controller_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/unit/../test_helper.rb:35
+./test/unit/property_test.rb:1:in `require'
+./test/unit/property_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+Unable to load test, underlying cause no such file to load -- test 
+
+ /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:509:in `require'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:101:in `require_or_load'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:60:in `depend_on'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:456:in `require_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `each'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/home/dhaval/work/myapps/trump_cards/vendor/rails/activerecord/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/functional/../test_helper.rb:35
+./test/functional/trump_card_controller_test.rb:1:in `require'
+./test/functional/trump_card_controller_test.rb:1
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/1.8/rake/rake_test_loader.rb:5
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:35:05) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:35:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:36:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00453 (220 reqs/sec) | Rendering: 0.00111 (24%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:38:44) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00417 (239 reqs/sec) | Rendering: 0.00095 (22%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:39:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00403 (248 reqs/sec) | Rendering: 0.00097 (24%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:42:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00417 (239 reqs/sec) | Rendering: 0.00098 (23%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:43:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00423 (236 reqs/sec) | Rendering: 0.00098 (23%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 20:55:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00532 (188 reqs/sec) | Rendering: 0.00100 (18%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 22:51:48) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00383 (260 reqs/sec) | Rendering: 0.00093 (24%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 22:53:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00389 (256 reqs/sec) | Rendering: 0.00093 (23%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 22:53:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00389 (257 reqs/sec) | Rendering: 0.00097 (24%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2008-12-31 22:54:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00382 (261 reqs/sec) | Rendering: 0.00092 (24%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 16:31:13) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00458 (218 reqs/sec) | Rendering: 0.00146 (31%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 16:46:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00476 (209 reqs/sec) | Rendering: 0.00164 (34%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 16:46:53) [GET]
+  Session ID: 
+  Parameters: {"name"=>"tendlya", "property"=>"runs", "action"=>"result", "controller"=>"trump_card"}
+Rendering trump_card/result
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 16:48:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00442 (226 reqs/sec) | Rendering: 0.00152 (34%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 16:48:26) [GET]
+  Session ID: 
+  Parameters: {"name"=>"tendlya", "property"=>"runs", "action"=>"result", "controller"=>"trump_card"}
+Rendering trump_card/result
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 16:49:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00447 (223 reqs/sec) | Rendering: 0.00153 (34%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 16:49:53) [GET]
+  Session ID: 
+  Parameters: {"name"=>"tendlya", "property"=>"runs", "action"=>"result", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00093 (1074 reqs/sec) | Rendering: 0.00081 (86%) | 200 OK [http://test.host/trump_card/result?name=tendlya&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 16:57:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00521 (191 reqs/sec) | Rendering: 0.00163 (31%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 16:57:20) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00114 (873 reqs/sec) | Rendering: 0.00100 (87%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 16:57:20) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00075 (1328 reqs/sec) | Rendering: 0.00062 (81%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 17:02:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00443 (225 reqs/sec) | Rendering: 0.00150 (33%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:02:15) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:02:15) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 17:03:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00444 (225 reqs/sec) | Rendering: 0.00151 (34%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:03:24) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:03:24) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 17:05:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00443 (225 reqs/sec) | Rendering: 0.00151 (34%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:05:27) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00101 (994 reqs/sec) | Rendering: 0.00081 (80%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:05:27) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00071 (1404 reqs/sec) | Rendering: 0.00049 (68%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 17:09:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00474 (211 reqs/sec) | Rendering: 0.00182 (38%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:09:24) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00113 (882 reqs/sec) | Rendering: 0.00091 (80%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 17:09:24) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00071 (1416 reqs/sec) | Rendering: 0.00050 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 19:43:34) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00505 (197 reqs/sec) | Rendering: 0.00206 (40%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 19:43:34) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00134 (745 reqs/sec) | Rendering: 0.00113 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 19:43:34) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00068 (1463 reqs/sec) | Rendering: 0.00048 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 19:59:30) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00468 (213 reqs/sec) | Rendering: 0.00175 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 19:59:30) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 19:59:30) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:12:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00470 (212 reqs/sec) | Rendering: 0.00178 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:12:21) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:12:21) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:16:12) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00513 (195 reqs/sec) | Rendering: 0.00175 (34%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:16:12) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:16:12) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:17:05) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00468 (213 reqs/sec) | Rendering: 0.00176 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:17:05) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00102 (980 reqs/sec) | Rendering: 0.00082 (80%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:17:05) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00070 (1424 reqs/sec) | Rendering: 0.00050 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:17:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00470 (212 reqs/sec) | Rendering: 0.00175 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:17:33) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00104 (965 reqs/sec) | Rendering: 0.00083 (80%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:17:33) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00070 (1436 reqs/sec) | Rendering: 0.00049 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:18:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00469 (213 reqs/sec) | Rendering: 0.00172 (36%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:18:21) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00103 (966 reqs/sec) | Rendering: 0.00083 (80%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:18:21) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00084 (1195 reqs/sec) | Rendering: 0.00057 (68%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:20:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00471 (212 reqs/sec) | Rendering: 0.00177 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:20:25) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00144 (694 reqs/sec) | Rendering: 0.00123 (85%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:20:25) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00081 (1234 reqs/sec) | Rendering: 0.00061 (74%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:31:59) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00464 (215 reqs/sec) | Rendering: 0.00173 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:31:59) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00142 (702 reqs/sec) | Rendering: 0.00118 (83%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:31:59) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00068 (1466 reqs/sec) | Rendering: 0.00048 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:32:26) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00478 (209 reqs/sec) | Rendering: 0.00180 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:32:26) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00135 (741 reqs/sec) | Rendering: 0.00113 (83%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:32:26) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00069 (1442 reqs/sec) | Rendering: 0.00048 (69%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:32:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00486 (205 reqs/sec) | Rendering: 0.00182 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:32:42) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00136 (734 reqs/sec) | Rendering: 0.00115 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:32:42) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00084 (1183 reqs/sec) | Rendering: 0.00060 (71%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:33:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00466 (214 reqs/sec) | Rendering: 0.00174 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:33:45) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00166 (604 reqs/sec) | Rendering: 0.00118 (71%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:33:45) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00073 (1373 reqs/sec) | Rendering: 0.00051 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:34:25) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00460 (217 reqs/sec) | Rendering: 0.00172 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:34:25) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00133 (749 reqs/sec) | Rendering: 0.00112 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:34:25) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00069 (1455 reqs/sec) | Rendering: 0.00048 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:37:08) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00464 (215 reqs/sec) | Rendering: 0.00173 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:37:08) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00137 (728 reqs/sec) | Rendering: 0.00116 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:37:08) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00072 (1389 reqs/sec) | Rendering: 0.00050 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:40:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00464 (215 reqs/sec) | Rendering: 0.00174 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:40:40) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00143 (697 reqs/sec) | Rendering: 0.00121 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:40:40) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00089 (1129 reqs/sec) | Rendering: 0.00067 (75%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:41:12) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00470 (212 reqs/sec) | Rendering: 0.00178 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:41:12) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00135 (742 reqs/sec) | Rendering: 0.00113 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:41:12) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00074 (1347 reqs/sec) | Rendering: 0.00051 (68%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:42:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00465 (214 reqs/sec) | Rendering: 0.00175 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:42:32) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00134 (745 reqs/sec) | Rendering: 0.00113 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:42:32) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00072 (1390 reqs/sec) | Rendering: 0.00051 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 20:45:46) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00465 (214 reqs/sec) | Rendering: 0.00174 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:45:46) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00136 (736 reqs/sec) | Rendering: 0.00115 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 20:45:46) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00067 (1481 reqs/sec) | Rendering: 0.00047 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 22:02:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00467 (213 reqs/sec) | Rendering: 0.00178 (38%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 22:02:28) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00162 (615 reqs/sec) | Rendering: 0.00129 (79%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 22:02:28) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00071 (1402 reqs/sec) | Rendering: 0.00050 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
