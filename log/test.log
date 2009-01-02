@@ -1686,3 +1686,150 @@ Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:17:23) [GET]
   Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
 Rendering trump_card/result
 Completed in 0.00070 (1428 reqs/sec) | Rendering: 0.00049 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 23:23:43) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00477 (209 reqs/sec) | Rendering: 0.00180 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:23:43) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00143 (698 reqs/sec) | Rendering: 0.00120 (83%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:23:43) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00068 (1459 reqs/sec) | Rendering: 0.00048 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 23:31:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00487 (205 reqs/sec) | Rendering: 0.00185 (38%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:31:04) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00137 (732 reqs/sec) | Rendering: 0.00115 (83%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:31:04) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00073 (1372 reqs/sec) | Rendering: 0.00052 (71%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 23:36:47) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00482 (207 reqs/sec) | Rendering: 0.00177 (36%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:36:47) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00155 (645 reqs/sec) | Rendering: 0.00132 (85%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:36:47) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00070 (1432 reqs/sec) | Rendering: 0.00049 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 23:37:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00473 (211 reqs/sec) | Rendering: 0.00173 (36%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:37:24) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00152 (657 reqs/sec) | Rendering: 0.00129 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:37:24) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00071 (1406 reqs/sec) | Rendering: 0.00051 (71%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 23:38:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00715 (139 reqs/sec) | Rendering: 0.00364 (50%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:38:04) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00248 (403 reqs/sec) | Rendering: 0.00205 (82%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:38:04) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00113 (885 reqs/sec) | Rendering: 0.00079 (69%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 23:38:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00483 (206 reqs/sec) | Rendering: 0.00179 (36%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:38:51) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00138 (724 reqs/sec) | Rendering: 0.00116 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:38:51) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00072 (1389 reqs/sec) | Rendering: 0.00051 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
+
+
+Processing TrumpCardController#play (for 0.0.0.0 at 2009-01-02 23:39:13) [GET]
+  Session ID: 
+  Parameters: {"action"=>"play", "controller"=>"trump_card"}
+Rendering trump_card/play
+Completed in 0.00480 (208 reqs/sec) | Rendering: 0.00178 (37%) | 200 OK [http://test.host/trump_card/play]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:39:13) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Dravid, R", "property"=>"runs", "action"=>"result", "other_name"=>"Tendulkar, S R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00139 (716 reqs/sec) | Rendering: 0.00118 (84%) | 200 OK [http://test.host/trump_card/result?name=Dravid%2C+R&other_name=Tendulkar%2C+S+R&property=runs]
+
+
+Processing TrumpCardController#result (for 0.0.0.0 at 2009-01-02 23:39:13) [GET]
+  Session ID: 
+  Parameters: {"name"=>"Tendulkar, S R", "property"=>"runs", "action"=>"result", "other_name"=>"Dravid, R", "controller"=>"trump_card"}
+Rendering trump_card/result
+Completed in 0.00070 (1424 reqs/sec) | Rendering: 0.00050 (70%) | 200 OK [http://test.host/trump_card/result?name=Tendulkar%2C+S+R&other_name=Dravid%2C+R&property=runs]
