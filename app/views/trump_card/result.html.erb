@@ -1,0 +1,13 @@
+<% image = 'happy.png' if @result == :wins %>
+<% image = 'sad.png' if @result == :loses %>
+
+<img src='/images/<%= image%>' alt = 'result' height="100" width="100"/>
+<br>
+<br>
+
+<% if !(@result == :invalid) %>
+  <%=  @my_card.name %> <%=@result %> against <%= @other_card.name %> based on <%= @property %>
+<%  end %>
+<br>
+<br>
+<%= link_to "Play Again", :action => :play, :game => @game %>

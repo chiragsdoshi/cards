@@ -1,0 +1,16 @@
+<h4><%= @card1.name %></h4>
+
+<% @property_names.each do |property_name| %>
+    <%= link_to property_name, :action => 'result', :game => @game,
+        :name => @card1.name, :other_name => @card2.name,
+        :property => property_name.to_s %>
+<% end %>
+
+<br>
+<h4><%= @card2.name %></h4>
+
+<% @property_names.each do |property_name| %>
+      <%= link_to property_name, :action => 'result', :game => @game,
+          :name => @card2.name, :other_name => @card1.name,
+          :property => property_name.to_s %>
+<% end %>
