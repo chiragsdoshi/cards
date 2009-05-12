@@ -1,0 +1,30 @@
+div.card{
+  width: 314px;
+  height: 442px;
+  float:left;
+  background-image: url("/images/cards.png");
+  background-repeat: no-repeat;
+}
+
+div.right{
+  margin-left: 10%;            
+}
+
+div.cardProperties{
+   margin: 5px 5px 5px 20px;
+}
+
+div.cardProperty{
+   margin: 5px;
+}
+
+div.cardContainer{
+  margin: 20px;
+}
+
+div.cardHeader{
+  font-weight:bold;
+  font-size:1.2em;
+  margin: 50px 5px 30px 20px;
+
+}
