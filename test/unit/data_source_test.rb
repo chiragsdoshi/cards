@@ -27,6 +27,4 @@ Expectations do
     datasource.property_types.size
   end
 
-  
-
 end

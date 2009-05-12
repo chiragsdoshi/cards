@@ -1,7 +1,7 @@
 class TrumpCardController < ApplicationController
 
   def initialize
-    @decks = {:tennis => tennis_deck, :test_cricket => test_cricket_deck}
+    @decks = {:tennis => create_deck_of("tennis_legends"), :test_cricket =>create_deck_of("test_cricketers"), :one_day_cricket => create_deck_of("one_day_cricketers")}
   end
 
   def index
@@ -30,12 +30,11 @@ class TrumpCardController < ApplicationController
     @game = params[:game]
   end
 
-  def test_cricket_deck
-    Deck.new(DataSource.new("#{RAILS_ROOT}/config/data/test_cricketers.csv"))
+  private 
+  def create_deck_of(csv_name)
+    Deck.new(DataSource.new("#{RAILS_ROOT}/config/data/#{csv_name}.csv"))    
   end
 
-  def tennis_deck
-    Deck.new(DataSource.new("#{RAILS_ROOT}/config/data/tennis_legends.csv"))
-  end
+
 
 end

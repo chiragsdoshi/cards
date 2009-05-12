@@ -13,6 +13,10 @@ Expectations do
   expect 2 do
     deck = Deck.new(test_data_source)
     deck.size
+    end
+
+  expect "crciket" do
+    deck = Deck.of(:test_cricket);
   end
 
   expect "TrumpCard:Tendulkar, S R Average => 54.28, Matches => 156, Runs => 12429, Wickets => 42" do

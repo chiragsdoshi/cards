@@ -1,4 +1,5 @@
 class DataSource
+
   def initialize(path)
     arr_of_arrs = FasterCSV.read(path)
     @property_names = property_names_from(arr_of_arrs[0])
